@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💖 Un obsequio de mi parte 💖</title>
+    <meta name="description" content="Carta romántica para Ana, hecha por Jean Pierre." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-hearts" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <audio id="bgMusic" loop preload="auto" src="Memory - Undertale.mp3"></audio>
+
+    <button class="music-toggle hidden" id="musicToggle" type="button" aria-label="Pausar música">
+      🔊
+    </button>
+
+    <div class="intro-modal" id="introModal">
+      <div class="modal-card" aria-label="Carta para Ana">
+        <div class="acceptance-card" id="acceptanceCard" aria-label="Confirmación de regalo">
+          <h1>¿Aceptas este regalo<br />de mi parte?</h1>
+          <p class="letter-text">
+            Quiero compartir algo muy especial contigo, hecho con cariño y con mucha intención.
+          </p>
+
+          <div class="choice-row">
+            <button class="choice-btn yes" id="yesBtn" type="button">Sí</button>
+            <button class="choice-btn no" id="noBtn" type="button">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="final-letter hidden" id="finalLetter">
+      <div class="letter-panel">
+        <div class="letter-panel-inner">
+          <h2>Querida Ana</h2>
+
+          <p>
+            Quiero decirte que, aunque hace poco más de un mes que nos conocemos, desde el momento en que nos conocimos en Roblox me caíste bien. Es curioso pensar que al día siguiente empezamos a hablar y que, a pesar de que al principio ambos dijimos que nos caíamos mal, terminaste convirtiéndote en alguien muy especial para mí. Quizás pueda sonar raro por el poco tiempo que llevamos conociéndonos, pero como ya te dije alguna vez, fue tu forma de ser, de expresarte y, sobre todo, el hecho de que seas tú misma lo que hizo que te quiera y que poco a poco te fuera tomando tanto cariño. Tal vez cuando estés leyendo esto todavía no nos hayamos visto en persona, o quizás ese momento ya haya pasado, pero sea como sea, sé desde ya que vamos a pasar un bonito día y que voy a guardar ese momento con mucho cariño.
+          </p>
+
+          <p>
+            No soy muy bueno haciendo obsequios y mucho menos escribiendo cartas, así que si en algún momento encuentras una falla ortográfica, una palabra repetida varias veces o alguna parte que no tenga mucho sentido, pues ya sabrás por qué jajaja. Pero dejando eso de lado, quería aprovechar este pequeño detalle para decirte algo que quizás no siempre sé cómo expresar: te quiero mucho. Sé que soy una persona bastante intensa y tú misma me lo has dicho, pero quiero que sepas que esa intensidad viene del cariño y de la sinceridad que te tengo. En lo que pueda, voy a cuidarte y preocuparme por ti, aunque a veces no te guste jajaja. Y quiero que tengas presente que voy a apoyarte en todo lo que hagas. Incluso si en algún momento haces algo que esté mal, te voy a apoyar, aunque después, cuando estemos hablando por privado, probablemente te voy a reprimir por haberlo hecho.
+          </p>
+
+          <p>
+            Quizás esto sea algo difícil de repetir o de explicar nuevamente, pero simplemente quería que supieras lo importante que te has vuelto para mí en tan poco tiempo. No sé en qué momento, día u hora vayas a leer esto, ni tampoco qué estarás pensando mientras lo haces, pero espero que puedas sentir aunque sea un poquito del cariño con el que escribí cada una de estas palabras. Cuídate mucho, Ana, y nunca olvides que aquí tienes a alguien que, aunque lleva poco tiempo conociéndote, ya te aprecia muchísimo y siempre va a querer verte bien. Gracias por ser tú, por la confianza y por todos esos momentos que hemos compartido hasta ahora. Te quiero mucho, señorita Pocket Sage. ❤️
+          </p>
+
+          <footer>Con cariño, Jean Pierre</footer>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
